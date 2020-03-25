@@ -105,10 +105,10 @@ git config --list --show-origin 		&rarr;	donde se guardan las configuraciones de
 SSH &rarr; SECURE SHELL
 
 ssh-keygen -t rsa -b 4096 -C <mail>
-	* ssh-keygen 	&rarr; generar key,
-	* -t rsa 		&rarr; especificar agoritmo rsa 
-	* -b 4096 	&rarr; que tan compleja la llave 4096 bits!
-	* -C 			&rarr; que correo
+ssh-keygen 	&rarr; generar key,
+-t rsa 		&rarr; especificar agoritmo rsa 
+-b 4096 	&rarr; que tan compleja la llave 4096 bits!
+-C 			&rarr; que correo
 
 
 
