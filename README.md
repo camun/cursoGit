@@ -53,6 +53,7 @@ git reset <id commit> --hard			&rarr; reset duro, todo vuelve a la versión del 
 
 git switch -c <new-branch-name>
 
+git checkout -- <file>                  &rarr; Devuelve un archivo a su estado original en la rama
 
 
 
