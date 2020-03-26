@@ -9,8 +9,7 @@ Directorio de prueba para el curso profesional de git github de la plataforma de
 
 git init &rarr; genera carpeta git que almacena cambios atomicos
 
-
-git add <file>  			&rarr; agrega archivo modificado al commit  &rarr; trackea el archivo (tracked)
+git add `file`  			&rarr; agrega archivo modificado al commit  &rarr; trackea el archivo (tracked)
 
 git add . 					&rarr; agrega todos los archivo que hayan sido modificado al commit
 
@@ -22,14 +21,14 @@ git status 					&rarr; indica el estado actual de los archivos
 
 git rm &rarr; borrar
 
-git rm --cache <file>		&rarr; borra el archivo del cache, por tanto ya no se enviara en caso de un push
+git rm --cache `file`		&rarr; borra el archivo del cache, por tanto ya no se enviara en caso de un push
 
 git rm --force				&rarr; Elimina los archivos de Git y del disco duro. 
 
 
 git checkout <rama>					&rarr;	trae los cambios de una rama especifica
 
-git checkout <id comit> <file> 		&rarr;	trae los cambios de un archivo de un commit especifico
+git checkout <id comit> `file` 		&rarr;	trae los cambios de un archivo de un commit especifico
 
 gat branch 							&rarr; lista las ramas
 
@@ -53,16 +52,17 @@ git reset <id commit> --hard			&rarr; reset duro, todo vuelve a la versión del 
 
 git switch -c <new-branch-name>
 
+git checkout -- `file`                  &rarr; Devuelve un archivo a su estado original en la rama
 
 
 
 ## Registros
 
-git show <file> 			&rarr; muestra los cambios realizados y la cabecera
+git show `file` 			&rarr; muestra los cambios realizados y la cabecera
 
-git show <file> 			&rarr; muestra los cambios realizados sobre un archivo
+git show `file` 			&rarr; muestra los cambios realizados sobre un archivo
 
-git log <file>				&rarr; muestra los commit realizado sobre un archivo junto con su id, sirve para git diff
+git log `file`				&rarr; muestra los commit realizado sobre un archivo junto con su id, sirve para git diff
 
 git log --stat   			&rarr; igual que lo anterior, muestra todos los commit mas los cambios en los archivos
 
