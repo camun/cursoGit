@@ -87,6 +87,9 @@ git log --all --graph --decorate --oneline		&rarr; muestra ramas como linea
 
 alias arbol =""
 
+git show-branch -all                    &rarr; muestra las ramas que existen con sus commit    
+
+gitk                                    &rarr; interfaz gráfica que muestra las ramas
 
 
 ## Configurar proyecto
