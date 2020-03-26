@@ -75,7 +75,8 @@ git diff								&rarr; muestra diferencia actual con el staying
 
 git tag -a <nombre tag> <id commit> 			&rarr; Crea un tag para el commit señalado
 
-git tag -d <nombre tag>							&rarr; Borra un tag
+git tag -d <nombre tag>							&rarr; Borra un tag localmente
+git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-ta       &rarr; Borra un tag en la nube
 
 git tag o git show-ref --tags					&rarr; Muestra los tags creados
 
