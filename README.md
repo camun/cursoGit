@@ -7,7 +7,6 @@ Directorio de prueba para el curso profesional de git github de la plataforma de
 
 ## Comandos basicos
 
-git init &rarr; genera carpeta git que almacena cambios atomicos
 
 
 git add <file>  			&rarr; agrega archivo modificado al commit  &rarr; trackea el archivo (tracked)
