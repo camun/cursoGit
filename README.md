@@ -96,9 +96,9 @@ gitk                                    &rarr; interfaz gráfica que muestra las
 
 git config
 
-git remote add origin <url http ossh>		&rarr; agregar trabajo remoto desde el origen
+git remote add origin <url http ossh>		&rarr; agregar trabajo remoto desde un origen
 
-git remote rm destination					&rarr; borra trabajo remoto desde origen
+git remote rm destination					&rarr; borra trabajo remoto desde un origen
 
 
 git config --list --show-origin 		&rarr;	donde se guardan las configuraciones de git
