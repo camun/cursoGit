@@ -26,17 +26,17 @@ git rm --cache `file`		&rarr; borra el archivo del cache, por tanto ya no se env
 git rm --force				&rarr; Elimina los archivos de Git y del disco duro. 
 
 
-git checkout <rama>					&rarr;	trae los cambios de una rama especifica
+git checkout `rama`					&rarr;	trae los cambios de una rama especifica
 
 git checkout <id comit> `file` 		&rarr;	trae los cambios de un archivo de un commit especifico
 
 gat branch 							&rarr; lista las ramas
 
-git branch <rama>					&rarr; Crea una rama nueva
+git branch `rama`					&rarr; Crea una rama nueva
 
-git checkout <rama>					&rarr; te cambias  a la rama
+git checkout `rama`					&rarr; te cambias  a la rama
 
-git merge <rama> 					&rarr; mescla la rama actual con la rama indicada
+git merge `rama` 					&rarr; mescla la rama actual con la rama indicada
 
 git pull origin master 				&rarr; trae los cambios del origen rama master
 
@@ -54,6 +54,7 @@ git switch -c <new-branch-name>
 
 git checkout -- `file`                  &rarr; Devuelve un archivo a su estado original en la rama
 
+git rebase `rama`                        &rarr; Trae la historia de una rama y la aplica sobre a rama actual. Esto solo debe realizarse local
 
 
 ## Registros
