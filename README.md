@@ -25,7 +25,6 @@ git rm --cache `file`		&rarr; borra el archivo del cache, por tanto ya no se env
 
 git rm --force				&rarr; Elimina los archivos de Git y del disco duro. 
 
-
 git checkout `rama`					&rarr;	trae los cambios de una rama especifica
 
 git checkout <id comit> `file` 		&rarr;	trae los cambios de un archivo de un commit especifico
@@ -52,8 +51,15 @@ git reset <id commit> --hard			&rarr; reset duro, todo vuelve a la versión del 
 
 git checkout -- `file`                  &rarr; Devuelve un archivo a su estado original en la rama
 
-
 git rebase `rama`                       &rarr; Trae la historia de una rama y la aplica sobre a rama actual. (Esto solo debe realizarse local)
+
+git clean -f                            &rarr; Borra los archivos inecesarios del espacio de trabajo
+
+git clean --dry-run                     &rarr; Indica que archivos serían borrados en caso de correr git clean
+
+git cherry-pick `id commit`              &rarr; Trae los cambios de un commit viejo, de cualquier rama y los mergea con la rama actual
+
+git commit --amend 		                &rarr; agrega cambio al commit
 
 # stash
 
