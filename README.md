@@ -88,6 +88,8 @@ git diff <commit id1 > <commit id2> 	&rarr; muestra la diferencia entre dos comm
 
 git diff								&rarr; muestra diferencia actual con el staying
 
+git reflow                  &rarr; muestra todos los cambios, indepediente si las ramas fueron borradas
+
 
 ## Tag y arboles de registro
 
