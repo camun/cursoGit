@@ -44,17 +44,28 @@ git push origin master				&rarr; envia los cambios del origen rama master
 
 git pull origin master --allow-unrelated-histories		&rarr;	 permite hacer pull a origin master fucionando las historias
 
-## Reset y swing ramas
+## Reset y check ramas
 
 git reset <id commit> --soft			&rarr; reset suave, los archivos vuelven a la version del commit, pero el staying se mantiene
 
 git reset <id commit> --hard			&rarr; reset duro, todo vuelve a la versión del commit señalado
 
-git switch -c <new-branch-name>
-
 git checkout -- `file`                  &rarr; Devuelve un archivo a su estado original en la rama
 
-git rebase `rama`                        &rarr; Trae la historia de una rama y la aplica sobre a rama actual. Esto solo debe realizarse local
+
+git rebase `rama`                       &rarr; Trae la historia de una rama y la aplica sobre a rama actual. (Esto solo debe realizarse local)
+
+# stash
+
+git stash                               &rarr; Guarda los cambios    
+
+git stash pop                           &rarr; Trae los cambios del primer elemento de la lista stash 
+
+git stash drop                          &rarr; Borra el elemento posiciona en stash
+
+git stash branch `rama`                        &rarr; envia el primer cambio de la lista stash a la rama, si no existe la crea  
+
+git switch -c <new-branch-name>
 
 
 ## Registros
